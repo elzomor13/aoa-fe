@@ -35,7 +35,7 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? process.env.URL ?? 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://aoa-fe.elzomor-online.workers.dev'),
   title: 'Academy of Arts — أكاديمية الفنون | Cairo, Egypt',
   description:
     "Egypt's foremost conservatory of performing and visual arts — shaping generations of artists, critics, and cultural leaders across eight disciplines since 1959.",
