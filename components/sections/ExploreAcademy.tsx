@@ -94,7 +94,7 @@ export default function ExploreAcademy() {
         className="lg:w-1/2 flex items-center px-8 sm:px-12 lg:px-16 xl:px-20 py-16 lg:py-24"
       >
         <div className="max-w-[520px]">
-          <div className="font-dm-mono text-[#C8102E] text-[11px] tracking-[0.2em] uppercase mb-3">
+          <div className="font-dm-sans font-bold text-[#C8102E] text-[13px] tracking-[0.18em] uppercase mb-3">
             {t('label')}
           </div>
           <div className="w-12 h-px bg-[#C8102E] mb-8" />

@@ -54,7 +54,7 @@ export default function NewsEvents() {
           className="flex items-end justify-between mb-12 lg:mb-16"
         >
           <div>
-            <div className="font-dm-mono text-[#C8102E] text-[11px] tracking-[0.2em] uppercase mb-3">
+            <div className="font-dm-sans font-bold text-[#C8102E] text-[13px] tracking-[0.18em] uppercase mb-3">
               {t('label')}
             </div>
             <h2

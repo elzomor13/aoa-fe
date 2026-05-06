@@ -40,4 +40,10 @@ html {
   .font-dm-mono {
     font-family: var(--font-dm-mono);
   }
+
+  html[lang="ar"] .font-cormorant,
+  html[lang="ar"] .font-dm-sans,
+  html[lang="ar"] .font-dm-mono {
+    font-family: var(--font-cairo), sans-serif;
+  }
 }

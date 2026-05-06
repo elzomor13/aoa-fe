@@ -39,11 +39,11 @@ export const metadata: Metadata = {
   description:
     "Egypt's foremost conservatory of performing and visual arts — shaping generations of artists, critics, and cultural leaders across eight disciplines since 1959.",
   keywords: ['Academy of Arts', 'Egypt', 'Cairo', 'Arts Education', 'Theatre', 'Cinema', 'Ballet', 'Music'],
+  icons: { icon: '/logo.svg', apple: '/logo.svg' },
   openGraph: {
     title: 'Academy of Arts — أكاديمية الفنون',
     description: "Egypt's premier institution for performing and visual arts, established 1959.",
     type: 'website',
-    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Academy of Arts Cairo' }],
   },
 };
 
@@ -69,7 +69,7 @@ export default async function LocaleLayout({
       dir={isRTL ? 'rtl' : 'ltr'}
       className={`${cormorant.variable} ${dmSans.variable} ${dmMono.variable} ${cairo.variable}`}
     >
-      <body className={`font-dm-sans bg-[#0D0D0D] text-white overflow-x-hidden${isRTL ? ' font-cairo' : ''}`}>
+      <body className={`font-dm-sans bg-[#0D0D0D] text-white overflow-x-hidden${isRTL ? ' font-cairo text-[110%]' : ''}`}>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

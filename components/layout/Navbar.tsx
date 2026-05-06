@@ -74,7 +74,7 @@ export default function Navbar() {
                   onMouseLeave={() => setMegaOpen(false)}
                 >
                   <button
-                    className="group relative px-4 py-2 font-dm-sans text-[13px] font-400 text-white/80 hover:text-white transition-colors duration-200 tracking-wide"
+                    className="group relative px-4 py-2 font-dm-sans text-[15px] font-400 text-white/80 hover:text-white transition-colors duration-200 tracking-wide"
                     aria-expanded={megaOpen}
                     aria-haspopup="true"
                   >
@@ -118,7 +118,7 @@ export default function Navbar() {
                 <Link
                   key={link.labelKey}
                   href={link.href}
-                  className="group relative px-4 py-2 font-dm-sans text-[13px] text-white/80 hover:text-white transition-colors duration-200 tracking-wide"
+                  className="group relative px-4 py-2 font-dm-sans text-[15px] text-white/80 hover:text-white transition-colors duration-200 tracking-wide"
                 >
                   {t(link.labelKey as Parameters<typeof t>[0])}
                   <span className="absolute bottom-0 left-4 right-4 h-px bg-[#C8102E] origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out" />
@@ -143,7 +143,7 @@ export default function Navbar() {
 
             <Link
               href="#admissions"
-              className="hidden lg:block bg-[#C8102E] hover:bg-[#9B0D21] text-white font-dm-sans text-[13px] font-500 tracking-wide px-5 py-2.5 transition-colors duration-200"
+              className="hidden lg:block bg-[#C8102E] hover:bg-[#9B0D21] text-white font-dm-sans text-[15px] font-500 tracking-wide px-5 py-2.5 transition-colors duration-200"
             >
               {t('applyNow')}
             </Link>
