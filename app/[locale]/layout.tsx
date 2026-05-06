@@ -40,7 +40,6 @@ export const metadata: Metadata = {
   description:
     "Egypt's foremost conservatory of performing and visual arts — shaping generations of artists, critics, and cultural leaders across eight disciplines since 1959.",
   keywords: ['Academy of Arts', 'Egypt', 'Cairo', 'Arts Education', 'Theatre', 'Cinema', 'Ballet', 'Music'],
-  icons: { icon: '/logo.svg', apple: '/logo.svg' },
   openGraph: {
     title: 'Academy of Arts — أكاديمية الفنون',
     description: "Egypt's premier institution for performing and visual arts, established 1959.",
