@@ -5,4 +5,5 @@ export default createMiddleware(routing);
 
 export const config = {
   matcher: ['/((?!api|_next|_vercel|.*\\..*).*)'],
+  runtime: 'edge',
 };
