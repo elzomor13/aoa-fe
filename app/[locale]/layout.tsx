@@ -44,6 +44,7 @@ export const metadata: Metadata = {
     title: 'Academy of Arts — أكاديمية الفنون',
     description: "Egypt's premier institution for performing and visual arts, established 1959.",
     type: 'website',
+    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Academy of Arts — أكاديمية الفنون' }],
   },
 };
 
