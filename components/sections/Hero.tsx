@@ -18,7 +18,7 @@ export default function Hero() {
   const t = useTranslations('hero');
   const videoRef = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(true);
-  const [muted, setMuted] = useState(false);
+  const [muted, setMuted] = useState(true);
 
   function togglePlay() {
     const v = videoRef.current;
@@ -44,6 +44,7 @@ export default function Hero() {
         ref={videoRef}
         src="/videos/hero.mp4"
         autoPlay
+        muted
         loop
         playsInline
         className="absolute inset-0 w-full h-full object-contain object-center"

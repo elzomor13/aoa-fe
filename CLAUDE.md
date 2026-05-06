@@ -23,7 +23,7 @@ Five locales: `en` (default), `ar`, `de`, `fr`, `es`. Arabic uses `dir="rtl"` an
 
 - `i18n/routing.ts` — defines locales and defaultLocale
 - `i18n/request.ts` — server-side message loader (referenced by `next.config.js` via `withNextIntl`)
-- `middleware.ts` — intercepts all requests and enforces locale prefixes (`/en`, `/ar`, etc.)
+- `proxy.ts` — intercepts all requests and enforces locale prefixes (`/en`, `/ar`, etc.) — Next.js 16 renamed `middleware.ts` to `proxy.ts`
 - `messages/{locale}.json` — all UI strings keyed by section namespace (`navbar`, `hero`, `footer`, `institutes`, `news`, `admissions`, `contact`, `quickAccess`, `explore`)
 - `lib/navigation.ts` — re-exports `Link`, `useRouter`, `usePathname` from next-intl for locale-aware navigation
 
