@@ -23,7 +23,7 @@ Five locales: `en` (default), `ar`, `de`, `fr`, `es`. Arabic uses `dir="rtl"` an
 
 - `i18n/routing.ts` — defines locales and defaultLocale
 - `i18n/request.ts` — server-side message loader (referenced by `next.config.js` via `withNextIntl`)
-- `proxy.ts` — intercepts all requests and enforces locale prefixes (`/en`, `/ar`, etc.) — Next.js 16 renamed `middleware.ts` to `proxy.ts`
+- `middleware.ts` — intercepts all requests and enforces locale prefixes (`/en`, `/ar`, etc.) — kept as `middleware.ts` (not `proxy.ts`) for Cloudflare Workers compatibility; OpenNext doesn't yet support the Next.js 16 `proxy.ts` rename ([issue #962](https://github.com/opennextjs/opennextjs-cloudflare/issues/962))
 - `messages/{locale}.json` — all UI strings keyed by section namespace (`navbar`, `hero`, `footer`, `institutes`, `news`, `admissions`, `contact`, `quickAccess`, `explore`)
 - `lib/navigation.ts` — re-exports `Link`, `useRouter`, `usePathname` from next-intl for locale-aware navigation
 
