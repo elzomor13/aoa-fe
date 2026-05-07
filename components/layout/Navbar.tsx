@@ -19,9 +19,9 @@ export default function Navbar() {
     { nameKey: 'theatricalName', href: '#institutes' },
     { nameKey: 'cinemaName', href: '#institutes' },
     { nameKey: 'balletName', href: '#institutes' },
-    { nameKey: 'musicName', href: '#institutes' },
-    { nameKey: 'dramaticName', href: '#institutes' },
-    { nameKey: 'folkName', href: '#institutes' },
+    { nameKey: 'arabicMusicName', href: '#institutes' },
+    { nameKey: 'artCriticismName', href: '#institutes' },
+    { nameKey: 'folkArtsName', href: '#institutes' },
   ];
 
   const navLinks = [

@@ -65,7 +65,7 @@ export default function OgImage() {
           justifyContent: 'center',
         }}
       >
-        <svg viewBox="477 355 1051 701" height={480} style={{ width: 'auto' }}>
+        <svg viewBox="477 355 1051 701" width={720} height={480}>
           {paths.map((p, i) => (
             <path key={i} fill={p.fill} fillOpacity={p.opacity} d={p.d} />
           ))}

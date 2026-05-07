@@ -22,8 +22,7 @@ const AcademyOfArtsLogo: React.FC<LogoProps> = ({
         height,
         width: 'auto',
         display: 'block',
-        background: theme === 'dark' ? 'white' : 'transparent',
-        padding: theme === 'dark' ? '3px 6px' : undefined,
+        filter: theme === 'dark' ? 'invert(1) hue-rotate(180deg)' : undefined,
       }}
       className={className}
     />
