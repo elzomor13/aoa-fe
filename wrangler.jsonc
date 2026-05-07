@@ -26,5 +26,11 @@
 	},
 	"vars": {
 		"NEXT_PUBLIC_SITE_URL": "https://aoa.aoa-online.uk"
+	},
+	"observability": {
+		"logs": {
+			"enabled": true,
+			"invocation_logs": true
+		}
 	}
 }
