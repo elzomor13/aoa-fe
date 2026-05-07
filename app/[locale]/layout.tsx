@@ -34,8 +34,10 @@ const cairo = Cairo({
   display: 'swap',
 });
 
+const SITE_URL = 'https://aoa.aoa-online.uk';
+
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://aoa.aoa-online.uk'),
+  metadataBase: new URL(SITE_URL),
   title: 'Academy of Arts — أكاديمية الفنون | Cairo, Egypt',
   description:
     "Egypt's foremost conservatory of performing and visual arts — shaping generations of artists, critics, and cultural leaders across eight disciplines since 1959.",
@@ -44,7 +46,8 @@ export const metadata: Metadata = {
     title: 'Academy of Arts — أكاديمية الفنون',
     description: "Egypt's premier institution for performing and visual arts, established 1959.",
     type: 'website',
-    images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: 'Academy of Arts — أكاديمية الفنون' }],
+    url: SITE_URL,
+    images: [{ url: `${SITE_URL}/opengraph-image`, width: 1200, height: 630, alt: 'Academy of Arts — أكاديمية الفنون' }],
   },
 };
 
