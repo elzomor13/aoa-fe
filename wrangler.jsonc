@@ -25,6 +25,6 @@
 		"binding": "IMAGES"
 	},
 	"vars": {
-		"NEXT_PUBLIC_SITE_URL": "https://aoa-fe.elzomor-online.workers.dev"
+		"NEXT_PUBLIC_SITE_URL": "https://aoa.aoa-online.uk"
 	}
 }
