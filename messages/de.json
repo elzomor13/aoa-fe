@@ -195,5 +195,16 @@
     "subjectEvents": "Events & Partnerschaften",
     "subjectResearch": "Forschungskooperation",
     "subjectAlumni": "Alumni"
+  },
+  "chatbot": {
+    "title": "Akademie-Assistent",
+    "greeting": "Wie kann ich Ihnen heute helfen?",
+    "placeholder": "Schreiben Sie Ihre Nachricht…",
+    "send": "Senden",
+    "close": "Schließen",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+    "rateLimitIP": "Sie haben Ihr Tageslimit erreicht. Bitte versuchen Sie es später erneut.",
+    "rateLimitSession": "Diese Unterhaltung hat ihr Limit erreicht. Neue Unterhaltung starten?",
+    "newChat": "Neu starten"
   }
 }

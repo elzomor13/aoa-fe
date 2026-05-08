@@ -195,5 +195,16 @@
     "subjectEvents": "Eventos & Asociaciones",
     "subjectResearch": "Colaboración en investigación",
     "subjectAlumni": "Ex-alumnos"
+  },
+  "chatbot": {
+    "title": "Asistente de la Academia",
+    "greeting": "¿Cómo puedo ayudarte hoy?",
+    "placeholder": "Escribe tu mensaje…",
+    "send": "Enviar",
+    "close": "Cerrar",
+    "error": "Algo salió mal. Por favor, inténtalo de nuevo.",
+    "rateLimitIP": "Has alcanzado tu límite diario. Por favor, inténtalo más tarde.",
+    "rateLimitSession": "Esta conversación ha alcanzado su límite. ¿Comenzar una nueva?",
+    "newChat": "Nueva conversación"
   }
 }

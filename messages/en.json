@@ -195,5 +195,16 @@
     "subjectEvents": "Events & Partnerships",
     "subjectResearch": "Research Collaboration",
     "subjectAlumni": "Alumni"
+  },
+  "chatbot": {
+    "title": "Academy Assistant",
+    "greeting": "How can I help you today?",
+    "placeholder": "Type your message…",
+    "send": "Send",
+    "close": "Close",
+    "error": "Something went wrong. Please try again.",
+    "rateLimitIP": "You've reached your daily limit. Please try again later.",
+    "rateLimitSession": "This conversation has reached its limit. Start a new chat?",
+    "newChat": "Start new chat"
   }
 }

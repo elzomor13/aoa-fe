@@ -4,6 +4,8 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import Chatbot from '@/components/ui/Chatbot';
+import Providers from '@/components/Providers';
 
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
@@ -74,9 +76,12 @@ export default async function LocaleLayout({
       className={`${cormorant.variable} ${dmSans.variable} ${dmMono.variable} ${cairo.variable}`}
     >
       <body className={`font-dm-sans bg-[#0D0D0D] text-white overflow-x-hidden${isRTL ? ' font-cairo text-[110%]' : ''}`}>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        <Providers>
+          <NextIntlClientProvider messages={messages}>
+            {children}
+            <Chatbot />
+          </NextIntlClientProvider>
+        </Providers>
       </body>
     </html>
   );

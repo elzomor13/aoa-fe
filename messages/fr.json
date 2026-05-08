@@ -195,5 +195,16 @@
     "subjectEvents": "Événements & Partenariats",
     "subjectResearch": "Collaboration de recherche",
     "subjectAlumni": "Anciens élèves"
+  },
+  "chatbot": {
+    "title": "Assistant de l'Académie",
+    "greeting": "Comment puis-je vous aider aujourd'hui ?",
+    "placeholder": "Tapez votre message…",
+    "send": "Envoyer",
+    "close": "Fermer",
+    "error": "Une erreur s'est produite. Veuillez réessayer.",
+    "rateLimitIP": "Vous avez atteint votre limite quotidienne. Veuillez réessayer plus tard.",
+    "rateLimitSession": "Cette conversation a atteint sa limite. Commencer une nouvelle conversation ?",
+    "newChat": "Nouvelle conversation"
   }
 }
