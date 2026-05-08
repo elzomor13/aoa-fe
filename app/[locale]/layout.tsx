@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Cormorant_Garamond, DM_Sans, DM_Mono, Cairo } from 'next/font/google';
+import { Cormorant_Garamond, Arimo, DM_Mono, Cairo } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -15,11 +15,11 @@ const cormorant = Cormorant_Garamond({
   display: 'swap',
 });
 
-const dmSans = DM_Sans({
+const dmSans = Arimo({
   subsets: ['latin'],
-  weight: ['300', '400', '500'],
-  variable: '--font-dm-sans',
+  weight: ['400', '500', '700'],
   display: 'swap',
+  variable: '--font-dm-sans',
 });
 
 const dmMono = DM_Mono({
