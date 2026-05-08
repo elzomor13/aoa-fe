@@ -89,7 +89,7 @@ export default function Navbar() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: 8 }}
                         transition={{ duration: 0.2, ease: 'easeOut' }}
-                        className="absolute top-full left-1/2 -translate-x-1/2 mt-0 w-[520px] bg-[#1A1A1A] border border-white/10"
+                        className="absolute top-full left-1/2 -translate-x-1/2 mt-0 w-[520px] max-w-[calc(100vw-2rem)] bg-[#1A1A1A] border border-white/10"
                       >
                         <div className="grid grid-cols-2 p-2">
                           {institutes.map((inst) => (

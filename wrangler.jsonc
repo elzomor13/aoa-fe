@@ -25,7 +25,8 @@
 		"binding": "IMAGES"
 	},
 	"vars": {
-		"NEXT_PUBLIC_SITE_URL": "https://aoa.aoa-online.uk"
+		"NEXT_PUBLIC_SITE_URL": "https://aoa.aoa-online.uk",
+		"NEXT_PUBLIC_CHATBOT_API_URL": "https://api-gen.aoa-online.uk"
 	},
 	"observability": {
 		"logs": {

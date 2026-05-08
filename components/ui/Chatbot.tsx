@@ -185,7 +185,7 @@ export default function Chatbot() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 16, scale: 0.97 }}
             transition={{ duration: 0.25, ease: EASE }}
-            className="fixed bottom-24 end-6 z-[90] w-80 sm:w-96 max-w-[calc(100vw-3rem)] bg-charcoal rounded-2xl shadow-2xl flex flex-col border border-white/10 overflow-hidden"
+            className="fixed bottom-24 z-[90] inset-x-3 sm:inset-x-auto sm:end-6 sm:w-96 bg-charcoal rounded-2xl shadow-2xl flex flex-col border border-white/10 overflow-hidden"
             style={{ maxHeight: '520px' }}
           >
             {/* Header */}
@@ -203,7 +203,7 @@ export default function Chatbot() {
             </div>
 
             {/* Messages */}
-            <div className="flex-1 overflow-y-auto px-4 py-4 space-y-3" style={{ minHeight: 0 }}>
+            <div className="flex-1 overflow-y-auto overflow-x-hidden px-4 py-4 space-y-3" style={{ minHeight: 0 }}>
               {messages.map(msg => (
                 <div
                   key={msg.id}
