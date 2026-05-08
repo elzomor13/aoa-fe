@@ -1,6 +1,6 @@
 import { NextRequest } from 'next/server';
 
-const API_BASE = process.env.CHATBOT_API_URL ?? 'http://localhost:8000';
+const API_BASE = process.env.NEXT_PUBLIC_CHATBOT_API_URL ?? 'http://localhost:8000';
 
 export async function POST(request: NextRequest) {
   const body = await request.json();
